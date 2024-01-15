@@ -251,3 +251,42 @@ footer{
     border-radius: 25px;
     margin-top: 18px;
 }
+
+/*small devices*/
+@media screen and (max-width:576px){
+
+    header{
+        overflow:visible;
+        padding: 25px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo-name{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        padding-left: 25px;
+    }
+    .banner-description{
+        width: 95%;
+        text-align: center;
+    }
+    .banner-title{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .banner-img{
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 25px;
+        padding-right: 20px;
+        margin: 0;
+    }
+}
